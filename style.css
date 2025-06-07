@@ -1,0 +1,107 @@
+body{
+    font-family: Marcellus;
+    background-color: plum;
+    color: brown;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    border: 2px solid black;
+    border-radius: 30px;
+    flex-direction: column;
+    font-family: Marcellus;
+    padding: 20px 0;
+    margin: 20px 0 0 0;
+    background-color: rgb(194, 95, 224);
+    font-size: 24px;
+    gap: 10px;
+}
+.btns{
+    display: flex;
+    gap: 30px;
+}
+
+.buttons{
+    background-color: rgb(243, 114, 16);
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: Marcellus;
+}
+
+
+.result{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    background-color: rgb(154, 202, 244);
+    padding: 20px 0;
+    border-radius: 20px;
+}
+.result:empty{
+    display: none;
+}
+.resultbox{
+       background-color: rgb(194, 95, 224);
+    font-family: Marcellus;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 99vw;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 20px;
+
+}
+
+.try{
+    background-color: rgb(243, 114, 16);
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: Marcellus;
+}
+
+.scores{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+.ys{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+   border: 2px solid black; 
+   width: 30vw;
+   height: 100%;
+   border-radius: 20px;
+}
+
+.cs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    width: 30vw;
+    height: 100%;
+    border-radius: 20px;
+    font-weight: 600;
+}
+#ys{
+    font-size: 45px;
+}
+#cs{
+    font-size: 45px;
+}
+
